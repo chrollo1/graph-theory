@@ -6,4 +6,5 @@
 * Dijkstra's algorithm for undirected and directed graphs
 * Tree nodes
 * Tree traversal and printing trees
+* Binary Tree traversal
 
