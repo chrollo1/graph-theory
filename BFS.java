@@ -14,8 +14,7 @@ public class BFS {
 		}
 	}
 	
-	public static void main(String[] args) {
-		
+	public static void main(String[] args) {	
 		int[][] move = {
 				
 				{1,0},
@@ -37,20 +36,16 @@ public class BFS {
 		 * 
 		 * traverse moves
 		 * 		addToQueue( x + move[i][0], y + move[i][1], grid, q, steps)
-		 */
-		
+		 */	
 	}
 	
-	private void addToQueue(int x, int y, int[][] grid, Queue<Cell> q, int steps) {
-		
+	private void addToQueue(int x, int y, int[][] grid, Queue<Cell> q, int steps) {		
 		/*
-		 * if on useless cell, return... 
+		 * if on bad cell, return... 
 		 * 
 		 * grid[y][x] = steps
 		 * q.add new Cell(x,y)
-		 */
-		
-		
+		 */		
 	}
 
 }
