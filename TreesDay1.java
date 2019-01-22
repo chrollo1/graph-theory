@@ -13,7 +13,7 @@ class Node {
 }
 
 public class TreesDay1 {	
-	static Node root;
+	static Node rt;
 	
 	private static Node addRec(Node cur, int val) {
 		if (cur == null) {
