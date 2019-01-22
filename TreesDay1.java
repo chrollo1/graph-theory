@@ -12,8 +12,7 @@ class Node {
 	}
 }
 
-public class TreesDay1 {
-	
+public class TreesDay1 {	
 	static Node root;
 	
 	private static Node addRec(Node cur, int val) {
@@ -58,8 +57,8 @@ public class TreesDay1 {
 		
 		bt.add(100);
 		
-		 for (int i = 0; i < 20; i++)
-           bt.add((int) (Math.random() * 200));
+		for (int i = 0; i < 20; i++)
+           	    bt.add((int) (Math.random() * 200));
 
 //		System.out.println(containsNode(5));
 		
