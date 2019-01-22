@@ -12,8 +12,8 @@ class Node {
 	}
 }
 
-public class TreesDay1 {	
-	static Node rot;
+public class Tree {	
+	static Node root;
 	
 	private static Node addRec(Node cur, int val) {
 		if (cur == null) {
