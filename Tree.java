@@ -1,5 +1,4 @@
-package misc;
-
+package 
 class Node {
 	int val;
 	Node left;
